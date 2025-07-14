@@ -1,0 +1,82 @@
+{
+    "title": {
+        "songs": "노래",
+        "albums": "앨범",
+        "singles": "싱글",
+        "artists": "아티스트",
+        "similar_artists": "비슷한 아티스트",
+        "playlists": "재생목록",
+        "moods": "분위기",
+        "genres": "장르",
+        "featured": "추천",
+        "spotlight": "스포트라이트",
+        "community": "커뮤니티",
+        "login": "로그인",
+        "local": "로컬",
+        "remote": "원격",
+        "search": "검색",
+        "feeds": "피드"
+    },
+    "action": {
+        "back": "뒤로",
+        "add": "추가",
+        "create": "만들기",
+        "cancel": "취소",
+        "send": "보내기",
+        "receive": "받기",
+        "export": "가져오기",
+        "import": "불러오기"
+    },
+    "playlist": {
+        "local": "로컬 재생목록",
+        "remote": "원격 재생목록",
+        "name": "재생목록 이름",
+        "add": "노래 추가 필요",
+        "create": "새 재생목록 만들기",
+        "sync": "재생목록 동기화",
+        "select": "재생목록에 추가"
+    },
+    "pref": {
+        "theme": "테마",
+        "tab": "기본 탭",
+        "player": "오디오 플레이어",
+        "auto_queue": "대기열 자동 편성",
+        "codec": "코덱",
+        "quality": "음질",
+        "auto": "자동",
+        "best": "최고",
+        "worst": "최저",
+        "volume": "기본 음량",
+        "nord": "노드 테마",
+        "blur": "블러 테마",
+        "blur_light": "블러 테마 (라이트)",
+        "dracula": "드라큘라 테마",
+        "library": "보관함",
+        "light": "라이트 모드",
+        "explore": "둘러보기",
+        "charts": "차트",
+        "dark": "다크 모드(기본)",
+        "compact": "콤팩트 뷰",
+        "home": "홈",
+        "prm": "동작 줄이기"
+    },
+    "info": {
+        "see_all": "모두 보기",
+        "search": "검색 시작하기",
+        "no_info": "정보 없음"
+    },
+    "instances": {
+        "hyp": "Hyperpipe 인스턴스",
+        "piped": "Piped 인스턴스",
+        "auth": "인증 인스턴스",
+        "name": "이름",
+        "loc": "위치",
+        "cdn": "CDN",
+        "up_to_date": "최신 업데이트",
+        "version": "버전"
+    },
+    "lyrics": {
+        "load": "가사를 불러오는 중",
+        "void": "가사 없음"
+    }
+}

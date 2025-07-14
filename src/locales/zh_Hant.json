@@ -1,0 +1,133 @@
+{
+    "title": {
+        "songs": "歌曲",
+        "albums": "專輯",
+        "singles": "單曲",
+        "artists": "藝人",
+        "playlists": "播放清單",
+        "moods": "情境",
+        "featured": "精選",
+        "community": "社區",
+        "login": "登入",
+        "local": "本地",
+        "remote": "遠端",
+        "search": "搜尋",
+        "offline": "離線",
+        "similar_artists": "相似藝人",
+        "genres": "類型",
+        "spotlight": "聚焦",
+        "feeds": "推薦",
+        "logout": "登出",
+        "now_playing": "正在播放"
+    },
+    "pref": {
+        "blur": "深色（模糊）",
+        "dark": "深色",
+        "light": "淺色",
+        "theme": "主題",
+        "blur_light": "淺色（模糊 ）",
+        "compact": "緊湊界面",
+        "dracula": "Dracula",
+        "nord": "Nord",
+        "prm": "偏好減少動態效果",
+        "player": "音樂播放器",
+        "quality": "音質",
+        "codec": "編碼",
+        "explore": "探索",
+        "library": "媒體庫",
+        "charts": "排行榜",
+        "home": "首頁",
+        "auto_queue": "自動排列歌曲",
+        "language": "語言",
+        "tab": "分頁",
+        "auto": "自動",
+        "worst": "最差",
+        "best": "最佳",
+        "volume": "預設音量",
+        "black": "黑色",
+        "playback_rate": "播放速率",
+        "blur_nord": "Nord（模糊）",
+        "blur_black": "黑色（模糊）",
+        "blur_dracula": "Dracula（模糊）"
+    },
+    "action": {
+        "back": "返回",
+        "register_on": "沒有帳號？註冊",
+        "send": "傳送",
+        "create": "新增",
+        "add": "加入",
+        "cancel": "取消",
+        "receive": "接收",
+        "import": "匯入",
+        "export": "匯出",
+        "play_now": "立即播放",
+        "share": "分享",
+        "change_time": "變更時間",
+        "more_controls": "更多控制",
+        "three-dots": "更多控制",
+        "save_for_offline_playback": "儲存以供離線播放",
+        "shuffle": "隨機"
+    },
+    "playlist": {
+        "select": "選擇要加入的播放清單",
+        "local": "本地播放清單",
+        "remote": "遠端播放清單",
+        "name": "播放清單名稱",
+        "add": "加入至播放清單",
+        "create": "新增播放清單",
+        "sync": "同步播放清單",
+        "remove_from": "從播放清單中移除",
+        "remove": "移除播放清單",
+        "save": "儲存為播放清單"
+    },
+    "artist": {
+        "subscribers": "訂閱者",
+        "subs": "訂閱"
+    },
+    "info": {
+        "search": "搜尋",
+        "see_all": "查看所有",
+        "no_info": "沒有資訊",
+        "saved": "已儲存！",
+        "copied_to_clipboard": "已複製到剪貼簿"
+    },
+    "instances": {
+        "hyp": "Hyperpipe 實例",
+        "piped": "Piped 實例",
+        "auth": "認證實例",
+        "name": "名稱",
+        "cdn": "CDN",
+        "loc": "位置",
+        "up_to_date": "最新的",
+        "default": "預設",
+        "version": "版本"
+    },
+    "lyrics": {
+        "load": "正在尋找歌詞",
+        "lyrics": "歌詞",
+        "void": "沒有歌詞"
+    },
+    "statusBar": {
+        "currentPlaylist": "目前的播放清單",
+        "loop": "循環",
+        "add_current_to_playlist": "加入當前歌曲到播放清單"
+    },
+    "general": {
+        "username": "登入名稱",
+        "password": "密碼"
+    },
+    "countries": {
+        "JP": "日本",
+        "GB": "英國",
+        "KR": "南韓",
+        "ZZ": "全球",
+        "UA": "烏克蘭"
+    },
+    "queue": {
+        "clear": "清除佇列",
+        "add": "增加至佇列",
+        "shuffle": "隨機佇列",
+        "add_to_top": "增加至佇列首位",
+        "add_to_bottom": "增加至佇列末位"
+    }
+}

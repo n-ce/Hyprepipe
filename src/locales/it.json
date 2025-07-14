@@ -1,0 +1,103 @@
+{
+    "pref": {
+        "auto_queue": "Accoda automaticamente i brani",
+        "theme": "Tema",
+        "volume": "Volume predefinito",
+        "best": "migliore",
+        "player": "Lettore audio",
+        "codec": "Codec",
+        "quality": "Qualità",
+        "auto": "automatica",
+        "worst": "peggiore",
+        "tab": "Scheda predefinita",
+        "dark": "Scuro (Default)",
+        "light": "Chiaro",
+        "blur": "Scuro (Blur)",
+        "blur_light": "Chiaro (Blur)",
+        "dracula": "Dracula",
+        "nord": "Nord",
+        "library": "Raccolta",
+        "home": "Pagina principale",
+        "charts": "Grafici",
+        "explore": "Esplora",
+        "compact": "Vista compatta",
+        "language": "Lingua",
+        "prm": "Meno animazioni",
+        "cc": "Deduci paese per generare charts",
+        "blur_dracula": "Dracula (Blur)",
+        "black": "Nero",
+        "blur_black": "Nero (Blur)"
+    },
+    "title": {
+        "albums": "Album",
+        "singles": "Singoli",
+        "artists": "Artisti",
+        "moods": "Umori",
+        "genres": "Genere",
+        "community": "Comunità",
+        "remote": "Remota",
+        "songs": "Brani",
+        "similar_artists": "Artisti simili",
+        "login": "Accedi",
+        "local": "Locale",
+        "search": "Cerca",
+        "featured": "In evidenza",
+        "playlists": "Playlist",
+        "feeds": "Feed",
+        "restore_prefs": "Ripristina preferenze",
+        "spotlight": "Riflettore",
+        "offline": "Offline",
+        "logout": "Esci"
+    },
+    "action": {
+        "add": "Aggiungi",
+        "receive": "Ricevi",
+        "back": "Indietro",
+        "create": "Crea",
+        "send": "Invia",
+        "cancel": "Annulla",
+        "import": "Importa",
+        "export": "Esporta",
+        "register_on": "Non hai un account? Registrati"
+    },
+    "info": {
+        "see_all": "Vedi tutto",
+        "search": "Avvia ricerca",
+        "no_info": "Nessuna info disponibile",
+        "saved": "Salvato!",
+        "copied_to_clipboard": "Copiato nella Clipboard"
+    },
+    "playlist": {
+        "remote": "Playlist remote",
+        "select": "Scegli playlist da aggiungere",
+        "local": "Playlist locali",
+        "name": "Nome playlist",
+        "create": "Crea nuova playlist",
+        "add": "Aggiungi brani alla playlist",
+        "sync": "Sincronizza playlist"
+    },
+    "instances": {
+        "up_to_date": "Aggiornato",
+        "version": "Versione",
+        "piped": "Istanza Piped",
+        "cdn": "CDN",
+        "hyp": "Istanza Hyperpipe",
+        "auth": "Istanza per autenticazione",
+        "name": "Nome",
+        "loc": "Posizioni"
+    },
+    "lyrics": {
+        "load": "Recupero testi",
+        "void": "Nessun testo",
+        "lyrics": "Testo"
+    },
+    "statusBar": {
+        "loop": "Ripeti",
+        "add_current_to_playlist": "Agg. brano riprodotto a playlist",
+        "currentPlaylist": "Playlist attuale"
+    },
+    "artist": {
+        "subs": "Seguiti",
+        "subscribers": "Iscritti"
+    }
+}

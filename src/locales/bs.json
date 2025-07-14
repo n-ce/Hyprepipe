@@ -1,0 +1,81 @@
+{
+    "action": {
+        "back": "Nazad",
+        "cancel": "Otkaži",
+        "send": "Pošalji",
+        "receive": "Primi",
+        "add": "Dodaj",
+        "create": "Napravi",
+        "import": "Uvezite",
+        "export": "Izvezite"
+    },
+    "title": {
+        "genres": "Žanrovi",
+        "featured": "Istaknuto",
+        "artists": "Umjetnici",
+        "community": "Zajednica",
+        "remote": "Vanjski",
+        "songs": "Pjesme",
+        "albums": "Albumi",
+        "singles": "Singlovi",
+        "search": "Pretraga",
+        "similar_artists": "Slični umjetnici",
+        "moods": "Raspoloženja",
+        "playlists": "Liste izvođenja",
+        "spotlight": "U prednosti",
+        "login": "Prijava",
+        "local": "Lokalni",
+        "feeds": "Izvori"
+    },
+    "instances": {
+        "up_to_date": "Ažurno",
+        "piped": "Piped Instanca",
+        "hyp": "Hyperpipe Instanca",
+        "name": "Ime",
+        "cdn": "CDN",
+        "version": "Verzija",
+        "auth": "Instanca za provjeru autentičnosti",
+        "loc": "Lokacije"
+    },
+    "playlist": {
+        "local": "Lokalne liste izvođenja",
+        "name": "Naziv liste izvođenja",
+        "create": "Kreirajte novu listu izvođenja",
+        "select": "Odaberite listu izvođenja da dodate",
+        "sync": "Sinkronizujte liste izvođenja",
+        "remote": "Vanjske liste izvođenja",
+        "add": "Dodajte pjesme u listu izvođenja"
+    },
+    "pref": {
+        "auto_queue": "Automatski stavite pjesme u red",
+        "worst": "najgora",
+        "volume": "Zadana jačina zvuka",
+        "theme": "Tema",
+        "player": "Audio pokretač",
+        "codec": "Kodek",
+        "auto": "auto",
+        "best": "najbolja",
+        "quality": "Kvaliteta",
+        "tab": "Zadana Kartica",
+        "dark": "Mračno (Zadano)",
+        "dracula": "Drakula",
+        "nord": "Nord",
+        "blur": "Zamagljeno",
+        "blur_light": "Zamućenje (Svjetlo)",
+        "light": "Svjetlo",
+        "home": "Početna",
+        "explore": "Istražite",
+        "charts": "Grafikoni",
+        "library": "Biblioteka",
+        "compact": "Kompaktan prikaz"
+    },
+    "info": {
+        "search": "Započni pretraživanje",
+        "see_all": "Pokaži sve",
+        "no_info": "Nema dostupnih informacija"
+    },
+    "lyrics": {
+        "load": "Dohvaćanje stihova",
+        "void": "Nema stihova"
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "action": {
+        "send": "Versturen",
+        "add": "Toevoegen",
+        "cancel": "Annuleren",
+        "receive": "Ontvangen",
+        "back": "Terug",
+        "create": "Creëren",
+        "import": "Importeren",
+        "export": "Exporteren"
+    },
+    "title": {
+        "community": "Gemeenschap",
+        "songs": "Liedjes",
+        "featured": "Aanbevolen",
+        "spotlight": "Spotlicht",
+        "login": "Aanmelden",
+        "local": "Lokaal",
+        "albums": "Albums",
+        "singles": "Singles",
+        "artists": "Artiesten",
+        "similar_artists": "Vergelijkbare Artiesten",
+        "playlists": "Afspeellijsten",
+        "moods": "Stemmingen",
+        "search": "Zoeken",
+        "remote": "Extern",
+        "genres": "Genres",
+        "feeds": "Feeds"
+    },
+    "pref": {
+        "auto": "auto",
+        "theme": "Thema",
+        "player": "Audiospeler",
+        "worst": "ergste",
+        "auto_queue": "Nummers automatisch in de wachtrij plaatsen",
+        "codec": "Codec",
+        "quality": "Kwaliteit",
+        "best": "beste",
+        "volume": "Standaard Volume",
+        "tab": "Standaard Tabblad",
+        "light": "Licht",
+        "blur": "Waas",
+        "blur_light": "Waas (Licht)",
+        "dracula": "Dracula",
+        "nord": "Nord",
+        "dark": "Donker (standaard)",
+        "explore": "Ontdekken",
+        "charts": "Grafieken",
+        "home": "Start",
+        "library": "Bibliotheek",
+        "compact": "Compacte weergave"
+    },
+    "lyrics": {
+        "void": "Geen songtekst",
+        "load": "Songtekst ophalen"
+    },
+    "playlist": {
+        "local": "Lokale Afspeellijsten",
+        "remote": "Externe Afspeellijsten",
+        "create": "Een nieuwe afspeellijst maken",
+        "name": "Naam Afspeellijst",
+        "add": "Nummers toevoegen aan afspeellijst",
+        "sync": "Afspeellijsten synchroniseren",
+        "select": "Selecteer afspeellijst om toe te voegen"
+    },
+    "info": {
+        "see_all": "Alles Weergeven",
+        "search": "Begin met zoeken",
+        "no_info": "Geen informatie beschikbaar"
+    },
+    "instances": {
+        "piped": "Piped-instantie",
+        "hyp": "Hyperpipe-instantie",
+        "name": "Naam",
+        "auth": "Authenticatie-instantie",
+        "cdn": "CDN",
+        "loc": "Locaties",
+        "up_to_date": "Bijgewerkt",
+        "version": "Versie"
+    }
+}

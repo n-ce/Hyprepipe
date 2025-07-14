@@ -1,0 +1,26 @@
+{
+  "name": "hyperpipe",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "format": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "peerjs": "^1.5.4",
+    "pinia": "^3.0.1",
+    "shaka-player": "^4.14.1",
+    "sortablejs": "^1.15.6",
+    "vue": "^3.2.38"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "prettier": "^3.5.3",
+    "vite": "^6.2.2",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}

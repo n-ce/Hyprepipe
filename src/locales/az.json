@@ -1,0 +1,81 @@
+{
+    "title": {
+        "songs": "Mahnılar",
+        "albums": "Albomlar",
+        "singles": "Sinqllar",
+        "similar_artists": "Oxşar Sənətkarlar",
+        "playlists": "Pleylistlər",
+        "moods": "Əhval-ruhiyyə",
+        "genres": "Janrlar",
+        "featured": "Seçilmiş",
+        "spotlight": "Teatr",
+        "community": "Cəmiyyət",
+        "login": "Daxil ol",
+        "remote": "Uzaq",
+        "search": "Axtarış",
+        "artists": "Sənətkarlar",
+        "local": "Yerli",
+        "feeds": "Axınlar"
+    },
+    "action": {
+        "back": "Geri",
+        "add": "Əlavə et",
+        "create": "Yarat",
+        "receive": "Qəbul et",
+        "cancel": "Ləğv et",
+        "send": "Göndər",
+        "import": "İdxal Et",
+        "export": "İxrac Et"
+    },
+    "playlist": {
+        "local": "Yerli Pleylistlər",
+        "remote": "Uzaq Pleylistlər",
+        "name": "Pleylist adı",
+        "create": "Yeni pleylist yarat",
+        "sync": "Pleylistləri sinxronlaşdır",
+        "add": "Mahnıları pleylistə əlavə et",
+        "select": "Əlavə etmək üçün pleylist seç"
+    },
+    "pref": {
+        "theme": "Tema",
+        "player": "Səs Oynadıcı",
+        "auto": "avtomatik",
+        "best": "ən yaxşı",
+        "worst": "ən pis",
+        "volume": "Defolt Həcm",
+        "codec": "Kodek",
+        "auto_queue": "Mahnıları avtomatik növbələ",
+        "quality": "Keyfiyyət",
+        "tab": "Defolt Panel",
+        "blur": "Bulanıqlaşdır",
+        "dark": "Qaranlıq (Defolt)",
+        "light": "İşıqlı",
+        "blur_light": "Bulanıq (İşıqlı)",
+        "dracula": "Drakula",
+        "nord": "Nord",
+        "compact": "Kompakt Görünüş",
+        "charts": "Qrafiklər",
+        "library": "Pleylistlər",
+        "home": "Ana Menu",
+        "explore": "Kəşf Et"
+    },
+    "info": {
+        "see_all": "Hamısını gör",
+        "search": "Axtarmağa Başla",
+        "no_info": "Məlumat yoxdur"
+    },
+    "instances": {
+        "hyp": "Hyperpipe Nümunəsi",
+        "piped": "Piped Nümunəsi",
+        "name": "Ad",
+        "loc": "Məkanlar",
+        "cdn": "CDN",
+        "up_to_date": "Güncəldir",
+        "version": "Versiya",
+        "auth": "Doğrulayıcı Nümunə"
+    },
+    "lyrics": {
+        "load": "Lirika Göstərilir",
+        "void": "Lirika yoxdur"
+    }
+}

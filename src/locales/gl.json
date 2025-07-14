@@ -1,0 +1,15 @@
+{
+    "title": {
+        "songs": "Cancións",
+        "albums": "Álbums",
+        "singles": "Singles",
+        "artists": "Artistas",
+        "similar_artists": "Artistas similares",
+        "moods": "Estado de ánimo",
+        "genres": "Xéneros",
+        "featured": "Destacado"
+    },
+    "pref": {
+        "blur": "Desenfoque"
+    }
+}
