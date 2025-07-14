@@ -1,19 +1,22 @@
-FROM --platform=$BUILDPLATFORM node:lts-alpine AS build
+FROM --platform=$BUILDPLATFORM docker.io/golang:alpine AS build
 
-WORKDIR /app/
+WORKDIR /src
+
+RUN apk --no-cache add ca-certificates
 
 COPY . .
 
-RUN --mount=type=cache,target=/root/.cache/node \
-    --mount=type=cache,target=/app/node_modules \
-    npm install --prefer-offline && \
-    npm run build
+ARG TARGETOS TARGETARCH
 
-FROM --platform=$TARGETPLATFORM nginx:stable-alpine
+RUN GOPROXY=https://proxy.golang.org,https://goproxy.cn go mod download && \
+	CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -ldflags "-s -w" -o /src/hyperpipe-backend
 
-COPY --from=build /app/dist/ /usr/share/nginx/html/
-COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
-COPY docker/entrypoint.sh /entrypoint.sh
+FROM scratch AS bin
 
-EXPOSE 80
-ENTRYPOINT [ "/entrypoint.sh" ]
+WORKDIR /app
+COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
+COPY --from=build /src/hyperpipe-backend .
+
+EXPOSE 3000
+
+CMD ["/app/hyperpipe-backend"]
