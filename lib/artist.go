@@ -6,21 +6,21 @@ import (
 )
 
 type Items struct {
-	Songs   []Item `json:"songs"`
-	Albums  []Item `json:"albums"`
-	Singles []Item `json:"singles"`
-	Artists []Item `json:"recommendedArtists"`
+	Songs           []Item `json:"songs"`
+	Albums          []Item `json:"albums"`
+	Singles         []Item `json:"singles"`
+	Artists         []Item `json:"recommendedArtists"`
 }
 
 type MoreItem struct {
 	BrowseId string `json:"id"`
-	Params   string `json:"params"`
-	Click    string `json:"click"`
-	Visit    string `json:"visit"`
+	Params   string `json:"params"`
+	Click    string `json:"click"`
+	Visit    string `json:"visit"`
 }
 
 type ArtistMore struct {
-	Album   MoreItem `json:"albums"`
+	Album   MoreItem `json:"albums"`
 	Singles MoreItem `json:"singles"`
 }
 
@@ -30,14 +30,15 @@ type ArtistNext struct {
 }
 
 type Artist struct {
-	Title            string      `json:"title"`
-	Description      string      `json:"description,omitempty"`
-	BrowsePlaylistId string      `json:"browsePlaylistId,omitempty"`
-	PlaylistId       string      `json:"playlistId,omitempty"`
-	SubscriberCount  string      `json:"subscriberCount,omitempty"`
-	Thumbnails       []Thumbnail `json:"thumbnails"`
-	Items            Items       `json:"items"`
-	More             ArtistMore  `json:"more"`
+	Title            string      `json:"title"`
+	Description      string      `json:"description,omitempty"`
+	BrowsePlaylistId string      `json:"browsePlaylistId,omitempty"`
+	PlaylistId       string      `json:"playlistId,omitempty"`
+	SubscriberCount  string      `json:"subscriberCount,omitempty"`
+	Thumbnails       []Thumbnail `json:"thumbnails"`
+	Items            Items       `json:"items"`
+	More             ArtistMore  `json:"more"`
+	FeaturedOn       []Item      `json:"featuredOn"` // New field for 'Featured On'
 }
 
 func parseMoreButton(raw gjson.Result, v string) MoreItem {
@@ -45,9 +46,9 @@ func parseMoreButton(raw gjson.Result, v string) MoreItem {
 
 	return MoreItem{
 		BrowseId: nav.Get("browseEndpoint.browseId").String(),
-		Params:   nav.Get("browseEndpoint.params").String(),
-		Click:    nav.Get("clickTrackingParams").String(),
-		Visit:    v,
+		Params:   nav.Get("browseEndpoint.params").String(),
+		Click:    nav.Get("clickTrackingParams").String(),
+		Visit:    v,
 	}
 }
 
@@ -70,9 +71,13 @@ func parseArtist(raw string) Artist {
 	users := c.Get(
 		"#(musicCarouselShelfRenderer.header.musicCarouselShelfBasicHeaderRenderer.title.runs.0.text == Fans might also like).musicCarouselShelfRenderer",
 	)
+	// New section to get 'Featured On' data
+	featuredOn := c.Get(
+		"#(musicCarouselShelfRenderer.header.musicCarouselShelfBasicHeaderRenderer.title.runs.0.text == Featured on).musicCarouselShelfRenderer",
+	)
 
 	return Artist{
-		Title:       RunsText(h.Get("title")),
+		Title:       RunsText(h.Get("title")),
 		Description: RunsText(h.Get("description")),
 		SubscriberCount: RunsText(
 			h.Get("subscriptionButton.subscribeButtonRenderer.subscriberCountText"),
@@ -87,15 +92,16 @@ func parseArtist(raw string) Artist {
 			"contents.0.musicResponsiveListItemRenderer.flexColumns.0.musicResponsiveListItemFlexColumnRenderer",
 		).Get("text.runs.0.navigationEndpoint.watchEndpoint.playlistId").String(),
 		Items: Items{
-			Songs:   ResponsiveListItemRenderer(songs.Get("contents")),
-			Albums:  TwoRowItemRenderer(albums.Get("contents"), true),
+			Songs:   ResponsiveListItemRenderer(songs.Get("contents")),
+			Albums:  TwoRowItemRenderer(albums.Get("contents"), true),
 			Singles: TwoRowItemRenderer(singles.Get("contents"), true),
 			Artists: TwoRowItemRenderer(users.Get("contents"), false),
 		},
 		More: ArtistMore{
-			Album:   parseMoreButton(albums, visitorData),
+			Album:   parseMoreButton(albums, visitorData),
 			Singles: parseMoreButton(singles, visitorData),
 		},
+		FeaturedOn: TwoRowItemRenderer(featuredOn.Get("contents"), true),
 	}
 }
 
